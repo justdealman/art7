@@ -582,6 +582,269 @@ button::-moz-focus-inner {
 	padding:0;
 	margin:0 0 21px;
 }
+.faq {
+	width:763px;
+	margin:2px 0 -5px;
+}
+.faq h1 {
+	color:#3a3a3f;
+	font-size:18px;
+	line-height:22px;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	padding:0;
+	margin:0 0 21px;
+}
+.faq > div {
+	margin:0 0 44px;
+}
+.faq h3 {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	letter-spacing:-1px;
+	padding:0;
+	margin:0 0 19px;
+}
+.faq p {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	font-style:italic;
+	margin:0 0 19px;
+}
+.book {
+	text-align:center;
+}
+.book .main {
+	margin:2px 0 0;
+}
+.book .main h3 {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	letter-spacing:-1px;
+	padding:0;
+	margin:0 0 19px;
+}
+.book .main p {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	margin:0 0 19px;
+}
+.book .main > div {
+	clear:both;
+	overflow:hidden;
+	padding:0 0 1px;
+	margin:24px 0 19px;
+	background:url('../img/opacity_bg.png') repeat;
+}
+.book .main > div h2 {
+	float:left;
+	width:215px;
+	color:#3a3a3f;
+	font-size:18px;
+	line-height:21px;
+	font-weight:normal;
+	margin:29px 0 28px 37px;
+}
+.book .main .cover {
+	float:left;
+	width:176px;
+	margin:0 0 0 37px;
+}
+.book .main .cover img {
+	max-width:174px;
+	margin:0 0 -6px;
+	border:1px solid #304368;
+}
+.book .main .information {
+	float:right;
+	width:214px;
+	margin:18px 37px 20px 0;
+}
+.book .main .information p {
+	color:#3a3a3f;
+	font-size:12px;
+	line-height:15px;
+	font-style:italic;
+	margin:0;
+}
+.book .main .information h5 {
+	color:#3a3a3f;
+	font-size:14px;
+	line-height:17px;
+	padding:0;
+	margin:13px 0 0;
+}
+.book .main .information button {
+	position:relative;
+	width:212px;
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:20px;
+	text-align:center;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:5px 0 7px;
+	margin:8px 0 0;
+	background:transparent;
+	border:1px solid #3a3a3f;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	behavior:url('./pie.htc');
+}
+.book .quotes {
+	padding:22px 0 0;
+	margin:51px 0 0;
+	border-top:1px solid #a2a2a4;
+}
+.book .quotes h2 {
+	color:#3a3a3f;
+	font-size:18px;
+	line-height:21px;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	padding:0;
+	margin:0 0 17px;
+}
+.book .quotes p {
+	color:#3a3a3f;
+	font-size:14px;
+	line-height:17px;
+	text-align:center;
+	margin:0 0 17px;
+}
+.book .quotes button {
+	position:relative;
+	display:inline-block;
+	width:212px;
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:20px;
+	text-align:center;
+	text-transform:uppercase;
+	cursor:pointer;
+	padding:5px 0 7px;
+	margin:1px 0 17px;
+	background:transparent;
+	border:1px solid #3a3a3f;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	behavior:url('./pie.htc');
+}
+.book .review {
+	padding:47px 0 0;
+	margin:8px 0 0;
+	border-top:1px solid #a2a2a4;
+}
+.book .review h2 {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 0 20px;
+}
+.book .review > div {
+	margin:0 0 42px;
+}
+.book .review p {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	font-style:italic;
+	margin:0 0 19px;
+}
+.book .review h3 {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	letter-spacing:-1px;
+	padding:0;
+	margin:0 0 19px;
+}
+.arrivals {
+	margin:2px 0 -8px;
+}
+.arrivals h1 {
+	color:#3a3a3f;
+	font-size:18px;
+	line-height:22px;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	padding:0;
+	margin:0 0 21px;
+}
+.arrivals > div {
+	margin:55px 0 0;
+}
+.arrivals > div > div {
+	clear:both;
+	overflow:hidden;
+	margin:0 0 51px;
+	background:url('../img/opacity_bg.png') repeat;
+}
+.arrivals > div > div img {
+	float:left;
+}
+.arrivals > div > div h2 {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	font-style:italic;
+	letter-spacing:-1px;
+	padding:0;
+	margin:0 0 19px;
+}
+.arrivals > div > div p {
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	margin:0;
+}
+.arrivals > div > div h5 {
+	color:#8e2728;
+	font-size:18px;
+	line-height:21px;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	padding:0;
+	margin:20px 0 0;
+}
+.pages {
+	text-align:center;
+	margin:0 0 19px;
+}
+.pages li {
+	display:inline-block;
+	color:#3a3a3f;
+	font-size:16px;
+	line-height:19px;
+	font-family:'Times New Roman', serif;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0 5px 0 4px;
+}
+.pages li a {
+	color:#3a3a3f;
+	text-decoration:none;
+}
+.pages li a:hover {
+	text-decoration:underline;
+}
+.pages li span {
+	font-family:'Georgia', serif;
+}
+.pages li strong {
+	color:#7a2b2b;
+}
 
 /* Footer */
 
