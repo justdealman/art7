@@ -7,7 +7,7 @@ body {
 	color:#4b4b51;
 	font-size:12px;
 	line-height:18px;
-    font-family:'Georgia', serif;
+	font-family:'Georgia', serif;
 	padding:0;
 	margin:0;
 	background:url('../img/body_bg.jpg') no-repeat center 162px;
@@ -73,7 +73,7 @@ textarea {
 	overflow:auto;
 }
 button {
-    font-family:'Georgia', serif;
+	font-family:'Georgia', serif;
 	margin:0;
 	border:0;
 	-moz-box-shadow:border-box;
@@ -131,13 +131,14 @@ button::-moz-focus-inner {
 	width:753px;
 	height:99px;
 	margin:0 auto;
+	background:url('../img/header_div.jpg') no-repeat left top;
 }
 .header img {
 	position:absolute;
 	left:0;
 	top:15px;
 }
-.header p {
+.header > p {
 	position:absolute;
 	right:0;
 	top:0;
@@ -149,6 +150,26 @@ button::-moz-focus-inner {
 	letter-spacing:-1px;
 	padding:24px 20px 30px;
 	background:#3a3a3f;
+}
+.header > div > div {
+	position:absolute;
+	right:0;
+	top:24px;
+	text-align:right;
+}
+.header > div > div p {
+	color:#acacac;
+	font-size:16px;
+	line-height:20px;
+	font-style:italic;
+	margin:0 0 4px;
+}
+.header > div > div p a {
+	color:#acacac;
+	text-decoration:underline;
+}
+.header > div > div p a:hover {
+	text-decoration:none;
 }
 .menu {
 	width:900px;
