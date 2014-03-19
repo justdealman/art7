@@ -22,4 +22,22 @@
 			$(this).children('img').css({'float': 'right', 'margin': (-divmargin)+'px '+(-imgwidth-38)+'px 0 0'});
 		}
 	});
+	$('.form .submit').click(function() {
+		$('div.success').fadeIn(250);
+		return false;
+	});
+	$('div.success').append('<span class="close"></span>');
+	$('div.success .close').click(function() {
+		$(this).parent().fadeOut(250);
+		return false;
+	});
+	$('input, textarea').each(function () {
+		$(this).data('holder',$(this).attr('placeholder'));
+		$(this).focusin(function(){
+			$(this).attr('placeholder','');
+		});
+		$(this).focusout(function(){
+			$(this).attr('placeholder',$(this).data('holder'));
+		});
+	});
 });

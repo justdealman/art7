@@ -430,6 +430,7 @@ button::-moz-focus-inner {
 	padding:0 0 2px;
 }
 .feedback .form p input, .feedback .form p textarea {
+	color:#3a3a3f;
 	width:191px;
 	font-size:14px;
 	padding:2px 4px 3px;
@@ -440,6 +441,27 @@ button::-moz-focus-inner {
 	margin:0 0 -4px;
 	resize:vertical;
 }
+.feedback .form p input.success, .feedback .form p textarea.success {
+	color:#ffffff;
+	background:url('../img/form_success_bg.png') repeat;
+}
+.feedback .form p input.error, .feedback .form p textarea.error {
+	color:#ffffff;
+	background:url('../img/form_error_bg.png') repeat;
+}
+.feedback .form p input.success::-webkit-input-placeholder, .feedback .form p textarea.success::-webkit-input-placeholder, .feedback .form p input.error::-webkit-input-placeholder, .feedback .form p textarea.error::-webkit-input-placeholder {
+	color:#ffffff;
+}
+.feedback .form p input.success:-moz-placeholder, .feedback .form p textarea.success:-moz-placeholder, .feedback .form p input.error::-webkit-input-placeholder, .feedback .form p textarea.error::-webkit-input-placeholder {
+	color:#ffffff;
+}
+.feedback .form p input.success::-moz-placeholder, .feedback .form p textarea.success::-moz-placeholder, .feedback .form p input.error::-webkit-input-placeholder, .feedback .form p textarea.error::-webkit-input-placeholder {
+	color:#ffffff;
+}
+.feedback .form p input.success:-ms-input-placeholder, .feedback .form p textarea.success:-ms-input-placeholder, .feedback .form p input.error::-webkit-input-placeholder, .feedback .form p textarea.error::-webkit-input-placeholder {
+	color:#ffffff;
+}
+
 .feedback .form button {
 	position:relative;
 	width:197px;
@@ -457,6 +479,13 @@ button::-moz-focus-inner {
 	-moz-border-radius:2px;
 	border-radius:2px;
 	behavior:url('./pie.htc');
+	transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+}
+.feedback .form button:hover {
+	background:rgba(0,0,0,0.25);
 }
 .event {
 	margin:2px 0 -3px;
@@ -973,4 +1002,39 @@ button::-moz-focus-inner {
 	margin:0;
 	background:#222225 url('../img/copy_bg.png') repeat-x bottom;
 	border-top:1px solid #5e5e60;
+}
+
+div.success {
+	display:none;
+	position:fixed;
+	left:50%;
+	top:50%;
+	z-index:1000;
+	width:380px;
+	padding:40px 40px 44px;
+	margin:-75px 0 0 -230px;
+	background:#f6f5f5;
+	-webkit-box-shadow:0 0 1px rgba(0,0,0,0.07);
+	-moz-box-shadow:0 0 1px rgba(0,0,0,0.07);
+	box-shadow:0 0 1px rgba(0,0,0,0.07);
+}
+div.success p {
+	color:#3a3a3f;
+	font-size:18px;
+	line-height:22px;
+	font-style:italic;
+	text-align:center;
+	padding:22px 0 0;
+	margin:0;
+	border-top:1px solid #b7b7b8;
+}
+div.success .close {
+	position:absolute;
+	right:8px;
+	top:8px;
+	display:block;
+	width:9px;
+	height:9px;
+	cursor:pointer;
+	background:url('../img/modal_close.png') no-repeat left top;
 }
